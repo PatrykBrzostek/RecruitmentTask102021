@@ -4,7 +4,7 @@ The [recruitment_tasks.py](recruitment_tasks.py) file contains my solutions of t
 # Python Dev Task - cipher
 ## Comments
 * It's possible to encode every sign, which has a ASCII code.
-* The [cipher.py](cipher.py) file contains my implementation of a cipher algorithm. I chosen the RSA algorithm. Firstly I convert each sign to its ASCII code, then I encode it using a public key and finally join all encoded signs to one string. I decided to encode each sign separately, because my implementation fails, when I try to encode a really big integers. The decoding proceeds in reverse order using a private key.
+* The [cipher.py](cipher.py) file contains my implementation of a cipher algorithm. I chosen the RSA algorithm. Firstly I convert each sign to its ASCII code, then I encode it using a public key and finally join all encoded signs to one string. I decided to encode each sign separately, because my implementation fails, when I try to encode really big integers. The decoding proceeds in reverse order using a private key.
 * The [tests.py](tests.py) file contains a few tests. You have to run a local server before you run these tests.
 * I couldn't manage to implement BasicAuth authorization.
 
